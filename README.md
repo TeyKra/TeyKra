@@ -1,4 +1,4 @@
-# Hi there 👋 I'm TeyKra
+# Hi there 👋 I'm Morgan
 
 ## 🎓 About Me
 
