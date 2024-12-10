@@ -18,7 +18,7 @@
 On my GitHub, you'll find a selection of my academic and personal projects since I began my journey in computer science.
 
 <h3 align="left">🌐 Portfolio:</h3>
-Check out my personal portfolio website: [myportfolio-morgan.netlify.app](https://myportfolio-morgan.netlify.app/)
+Check out my personal portfolio website: (https://myportfolio-morgan.netlify.app/)
 
 <h3 align="left"> 🤝 Connect with me:</h3>
 <p align="left">
