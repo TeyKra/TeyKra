@@ -12,6 +12,12 @@ On my GitHub, you'll find a selection of my academic and personal projects since
 
 Check out my personal portfolio website: [myportfolio-morgan.netlify.app](https://myportfolio-morgan.netlify.app/)
 
+## 🤝 Connect with me
+<p align="left">
+<a href="https://www.linkedin.com/in/morgan-senechal-a0a8ba1b7/" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Morgan Senechal LinkedIn" height="30" width="40" /></a>
+<a href="https://www.kaggle.com/morgansenechal" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/kaggle.svg" alt="Morgan Senechal Kaggle" height="30" width="40" /></a>
+</p>
+
 ## 🏆 Trophy
 <p align="left"> 
   <a href="https://github.com/ryo-ma/github-profile-trophy">
