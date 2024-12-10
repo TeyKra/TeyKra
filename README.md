@@ -1,6 +1,5 @@
-<p align="center">
-  <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" 
-  alt="Coding GIF" style="width: 100%; display: block;" />
+<p align="center" style="overflow: hidden; height: 200px; width: auto;">
+  <img src="https://user-images.githubusercontent.com/22107794/139606420-eaa56bc7-9377-4f5d-9356-aed07bed3143.gif" alt="Coding gif" style="width: 100%; display: block;" />
 </p>
 
 # Hi there 👋 I'm Morgan
