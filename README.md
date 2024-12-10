@@ -1,5 +1,6 @@
 <img align = "center" alt = "coding" width = "100%" src = "https://user-images.githubusercontent.com/22107794/139580686-887df369-edb8-4bc8-b607-4fbf6d7e4866.gif">  
 
+<img align = "right" alt = "codingg" width = "400" src = "https://user-images.githubusercontent.com/22107794/139606420-eaa56bc7-9377-4f5d-9356-aed07bed3143.gif">
 # Hi there 👋 I'm Morgan
 
 ## 🎓 About Me
