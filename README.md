@@ -2,7 +2,7 @@
 
 <img align = "right" alt = "codingg" width = "400" src = "https://user-images.githubusercontent.com/22107794/139606420-eaa56bc7-9377-4f5d-9356-aed07bed3143.gif">
 
-<h1 style="border-bottom: none;">Hi there 👋 I'm Morgan</h1>
+# Hi there 👋 I'm Morgan
 
 ## 🎓 About Me
 
