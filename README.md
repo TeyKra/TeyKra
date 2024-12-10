@@ -1,6 +1,6 @@
 <p align="center">
   <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" 
-  alt="Coding GIF" style="width: 100%; height: 300px; object-fit: cover; display: block;" />
+  alt="Coding GIF" alt="Funny coding gif" style="width: 100%; display: block;" />
 </p>
 
 # Hi there 👋 I'm Morgan
