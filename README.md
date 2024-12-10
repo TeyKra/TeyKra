@@ -4,7 +4,7 @@
 
 # Hi there 👋 I'm Morgan
 
-## 🎓 About Me
+<h3 align="left">Connect with me:</h3>
 I am a Master's 2 degree student in **Big Data & Machine Learning** at **EFREI Paris**. Since 2024, I'm working as a Business Analyst apprentice at **Dassault Systèmes**.
 
 ## 📂 Projects
