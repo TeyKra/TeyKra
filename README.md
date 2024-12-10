@@ -1,3 +1,7 @@
+<p align="center" style="overflow: hidden; height: 200px; width: auto;">
+  <img src="https://user-images.githubusercontent.com/22107794/139606420-eaa56bc7-9377-4f5d-9356-aed07bed3143.gif" alt="Coding gif" style="width: 100%; display: left;" />
+</p>
+
 # Hi there 👋 I'm Morgan
 
 ## 🎓 About Me
@@ -11,11 +15,6 @@ On my GitHub, you'll find a selection of my academic and personal projects since
 ## 🌐 Portfolio
 
 Check out my personal portfolio website: [myportfolio-morgan.netlify.app](https://myportfolio-morgan.netlify.app/)
-
-<p align="center">
-  <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" 
-  alt="Coding GIF" style="width: 100%; display: block;" />
-</p>
 
 ## 🤝 Connect with me
 <p align="left">
