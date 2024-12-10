@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" alt="Funny coding gif" width="600" />
+</p>
+
 # Hi there 👋 I'm Morgan
 
 ## 🎓 About Me
