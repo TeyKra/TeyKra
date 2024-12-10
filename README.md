@@ -12,15 +12,6 @@ On my GitHub, you'll find a selection of my academic and personal projects since
 
 Check out my personal portfolio website: [myportfolio-morgan.netlify.app](https://myportfolio-morgan.netlify.app/)
 
-
-
-
-
---
-
-<h1 align="center">Hi 👋, I'm Morgan</h1>
-<h3 align="center">A passionate Big Data & Machine learning developer !</h3>
-
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=teykra" alt="teykra" /></a> </p>
 
 <h3 align="left">Connect with me:</h3>
