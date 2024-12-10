@@ -8,7 +8,7 @@
 </div>
 
 <h3 align="left">🎓 About Me:</h3>
-I am a Master's 2 degree student in **Big Data & Machine Learning** at **EFREI Paris**. Since 2024, I'm working as a Business Analyst apprentice at Dassault Systèmes.
+#### I am a Master's 2 degree student in **Big Data & Machine Learning** at **EFREI Paris**. Since 2024, I'm working as a Business Analyst apprentice at Dassault Systèmes.
 
 <h3 align="left">📂 Projects:</h3>
 On my GitHub, you'll find a selection of my academic and personal projects since I began my journey in computer science.
