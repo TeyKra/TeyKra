@@ -1,6 +1,4 @@
-<p align="center" style="overflow: hidden; height: 200px; width: auto;">
-  <img src="https://user-images.githubusercontent.com/22107794/139606420-eaa56bc7-9377-4f5d-9356-aed07bed3143.gif" alt="Coding gif" display: left;" />
-</p>
+<img align = "center" alt = "coding" width = "500" src = "https://user-images.githubusercontent.com/22107794/139580686-887df369-edb8-4bc8-b607-4fbf6d7e4866.gif">  
 
 # Hi there 👋 I'm Morgan
 
