@@ -58,7 +58,7 @@ On my GitHub, you'll find a selection of my academic and personal projects since
   <a href="https://azure.microsoft.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" alt="azure" width="40" height="40"/> </a>
   <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a>
   <a href="https://opencv.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/> </a>
-  <a href="https://ultralytics.com/" target="_blank" rel="noreferrer"> <img src="https://avatars.githubusercontent.com/u/44897045?s=200&v=4" alt="ultralytics" width="40" height="40"/> </a>
+ <a href="https://ultralytics.com/" target="_blank" rel="noreferrer"><img src="https://ultralytics.gallerycdn.vsassets.io/extensions/ultralytics/ultralytics-snippets/0.1.9/1727956803685/Microsoft.VisualStudio.Services.Icons.Default" alt="ultralytics" width="40"     height="40" /></a>
   <a href="https://github.com/ultralytics/yolov5" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/YOLO_object_detection_logo.png" alt="yolo" width="40" height="40"/> </a>
   <a href="https://huggingface.co/" target="_blank" rel="noreferrer"> <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="huggingface" width="40" height="40"/> </a>
 </p>
