@@ -46,7 +46,7 @@ On my GitHub, you'll find a selection of my academic and personal projects since
   <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a>
   <a href="https://cassandra.apache.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/apache_cassandra/apache_cassandra-icon.svg" alt="cassandra" width="40" height="40"/> </a>
   <a href="https://redis.io" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" alt="redis" width="40" height="40"/> </a>
-  <a href="https://neo4j.com/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Neo4j-logo.png/800px-Neo4j-logo.png" alt="neo4j" width="40" height="40"/> </a>
+  <a href="https://neo4j.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/neo4j.svg" alt="neo4j" width="40" height="40"/> </a>
   <a href="https://kafka.apache.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/apache_kafka/apache_kafka-icon.svg" alt="kafka" width="40" height="40"/> </a>
   <a href="https://dvc.org/" target="_blank" rel="noreferrer"> <img src="https://avatars.githubusercontent.com/u/47602533?s=200&v=4" alt="dvc" width="40" height="40"/> </a>
   <a href="https://github.com/features/actions" target="_blank" rel="noreferrer"> <img src="https://avatars.githubusercontent.com/u/44036562?s=200&v=4" alt="github actions" width="40" height="40"/> </a>
@@ -59,7 +59,7 @@ On my GitHub, you'll find a selection of my academic and personal projects since
   <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a>
   <a href="https://opencv.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/> </a>
   <a href="https://ultralytics.com/" target="_blank" rel="noreferrer"> <img src="https://avatars.githubusercontent.com/u/44897045?s=200&v=4" alt="ultralytics" width="40" height="40"/> </a>
-  <a href="https://github.com/ultralytics/yolov5" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/AlexeyAB/darknet/master/logo.png" alt="yolo" width="40" height="40"/> </a>
+  <a href="https://github.com/ultralytics/yolov5" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/YOLO_object_detection_logo.png" alt="yolo" width="40" height="40"/> </a>
   <a href="https://huggingface.co/" target="_blank" rel="noreferrer"> <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="huggingface" width="40" height="40"/> </a>
 </p>
 
