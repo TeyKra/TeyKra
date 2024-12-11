@@ -48,7 +48,7 @@ On my GitHub, you'll find a selection of my academic and personal projects since
   <a href="https://redis.io" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" alt="redis" width="40" height="40"/> </a>
   <a href="https://neo4j.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/neo4j.svg" alt="neo4j" width="40" height="40"/> </a>
   <a href="https://kafka.apache.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/apache_kafka/apache_kafka-icon.svg" alt="kafka" width="40" height="40"/> </a>
-  <a href="https://dvc.org/" target="_blank" rel="noreferrer"> <img src="https://avatars.githubusercontent.com/u/47602533?s=200&v=4" alt="dvc" width="40" height="40"/> </a>
+  <a href="https://dvc.org/" target="_blank" rel="noreferrer"><img src="https://dvc.org/img/dvc_icon-color--square_vector.svg" alt="dvc" width="40" height="40" /></a>
   <a href="https://github.com/features/actions" target="_blank" rel="noreferrer"> <img src="https://avatars.githubusercontent.com/u/44036562?s=200&v=4" alt="github actions" width="40" height="40"/> </a>
   <a href="https://airflow.apache.org/" target="_blank" rel="noreferrer"> <img src="https://airflow.apache.org/images/feature-image.png" alt="airflow" width="40" height="40"/> </a>
   <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a>
