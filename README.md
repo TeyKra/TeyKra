@@ -36,7 +36,7 @@ On my GitHub, you'll find a selection of my academic and personal projects since
   <a href="https://www.scala-lang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/scala/scala-original.svg" alt="scala" width="40" height="40"/> </a>
   <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a>
   <a href="https://numpy.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original.svg" alt="numpy" width="40" height="40"/> </a>
-  <a href="https://pola-rs.github.io/polars/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/pola-rs/polars-static/main/static/images/logo-icon.png" alt="polars" width="40" height="40"/> </a>
+  <a href="https://pola-rs.github.io/polars/" target="_blank" rel="noreferrer"> <img src="https://avatars.githubusercontent.com/u/69386273?s=200&v=4" alt="polars" width="40" height="40"/> </a>
   <a href="https://matplotlib.org/" target="_blank" rel="noreferrer"> <img src="https://matplotlib.org/_static/images/logo2.svg" alt="matplotlib" width="40" height="40"/> </a>
   <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a>
   <a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a>
@@ -46,11 +46,11 @@ On my GitHub, you'll find a selection of my academic and personal projects since
   <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a>
   <a href="https://cassandra.apache.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/apache_cassandra/apache_cassandra-icon.svg" alt="cassandra" width="40" height="40"/> </a>
   <a href="https://redis.io" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" alt="redis" width="40" height="40"/> </a>
-  <a href="https://neo4j.com/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/3/30/Neo4j-logo-2015.png" alt="neo4j" width="40" height="40"/> </a>
+  <a href="https://neo4j.com/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Neo4j-logo.png/800px-Neo4j-logo.png" alt="neo4j" width="40" height="40"/> </a>
   <a href="https://kafka.apache.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/apache_kafka/apache_kafka-icon.svg" alt="kafka" width="40" height="40"/> </a>
-  <a href="https://dvc.org/" target="_blank" rel="noreferrer"> <img src="https://dvc.org/static/img/logo-dvc.svg" alt="dvc" width="40" height="40"/> </a>
+  <a href="https://dvc.org/" target="_blank" rel="noreferrer"> <img src="https://avatars.githubusercontent.com/u/47602533?s=200&v=4" alt="dvc" width="40" height="40"/> </a>
   <a href="https://github.com/features/actions" target="_blank" rel="noreferrer"> <img src="https://avatars.githubusercontent.com/u/44036562?s=200&v=4" alt="github actions" width="40" height="40"/> </a>
-  <a href="https://airflow.apache.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/apache_airflow/apache_airflow-icon.svg" alt="airflow" width="40" height="40"/> </a>
+  <a href="https://airflow.apache.org/" target="_blank" rel="noreferrer"> <img src="https://airflow.apache.org/images/feature-image.png" alt="airflow" width="40" height="40"/> </a>
   <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a>
   <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a>
   <a href="https://kubernetes.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" alt="kubernetes" width="40" height="40"/> </a>
@@ -58,8 +58,8 @@ On my GitHub, you'll find a selection of my academic and personal projects since
   <a href="https://azure.microsoft.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" alt="azure" width="40" height="40"/> </a>
   <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a>
   <a href="https://opencv.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/> </a>
-  <a href="https://ultralytics.com/" target="_blank" rel="noreferrer"> <img src="https://ultralytics.com/assets/favicon/apple-touch-icon.png" alt="ultralytics" width="40" height="40"/> </a>
-  <a href="https://github.com/ultralytics/yolov5" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/d/d8/Yolo_logo.svg" alt="yolo" width="40" height="40"/> </a>
+  <a href="https://ultralytics.com/" target="_blank" rel="noreferrer"> <img src="https://avatars.githubusercontent.com/u/44897045?s=200&v=4" alt="ultralytics" width="40" height="40"/> </a>
+  <a href="https://github.com/ultralytics/yolov5" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/AlexeyAB/darknet/master/logo.png" alt="yolo" width="40" height="40"/> </a>
   <a href="https://huggingface.co/" target="_blank" rel="noreferrer"> <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="huggingface" width="40" height="40"/> </a>
 </p>
 
