@@ -30,7 +30,7 @@ On my GitHub, you'll find a selection of my academic and personal projects since
 <a href="https://www.kaggle.com/morgansenechal" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/kaggle.svg" alt="Morgan Senechal Kaggle" height="30" width="40" /></a>
 </p>
 
-<h3 align="left"> 🛠️ Languages and Tools:</h3>
+<h3 align="left"> 🛠️ Main Languages and Tools:</h3>
 <p align="left"> 
   <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a>
   <a href="https://www.scala-lang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/scala/scala-original.svg" alt="scala" width="40" height="40"/> </a>
@@ -60,7 +60,6 @@ On my GitHub, you'll find a selection of my academic and personal projects since
   <a href="https://opencv.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/> </a>
  <a href="https://ultralytics.com/" target="_blank" rel="noreferrer"><img src="https://ultralytics.gallerycdn.vsassets.io/extensions/ultralytics/ultralytics-snippets/0.1.9/1727956803685/Microsoft.VisualStudio.Services.Icons.Default" alt="ultralytics" width="40"     height="40" /></a>
   <a href="https://huggingface.co/" target="_blank" rel="noreferrer"> <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="huggingface" width="40" height="40"/> </a>
- ...
 </p>
 
 
