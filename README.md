@@ -23,7 +23,7 @@ On my GitHub, you'll find a selection of my academic and personal projects since
 
 ---
 
-<h3 align="left"> 🤝 Connect with me:</h3>
+<h2 align="left"> 🤝 Connect with me:</h2>
 <p align="left">
 <a href="https://www.linkedin.com/in/morgan-senechal-a0a8ba1b7/" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Morgan Senechal LinkedIn" height="30" width="40" /></a>
 <a href="https://www.kaggle.com/morgansenechal" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/kaggle.svg" alt="Morgan Senechal Kaggle" height="30" width="40" /></a>
@@ -31,7 +31,7 @@ On my GitHub, you'll find a selection of my academic and personal projects since
 
 ---
 
-<h3 align="left"> 🛠️ Main Languages and Tools:</h3>
+<h2 align="left"> 🛠️ Main Languages and Tools:</h2>
 <p align="left"> 
   <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a>
   <a href="https://www.scala-lang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/scala/scala-original.svg" alt="scala" width="40" height="40"/> </a>
@@ -68,7 +68,7 @@ On my GitHub, you'll find a selection of my academic and personal projects since
 
 ---
 
-<h3 align="left"> 🏆 Trophy:</h3>
+<h2 align="left"> 🏆 Trophy:</h2>
 <p align="left"> 
   <a href="https://github.com/ryo-ma/github-profile-trophy">
     <img src="https://github-profile-trophy.vercel.app/?username=teykra" alt="teykra trophies" />
