@@ -61,10 +61,10 @@ On my GitHub, you'll find a selection of my academic and personal projects since
   </a> 
 </p>
 
-<h3 align="left"> 🌟 Contributions:</h3>
+<h3 align="left" style="margin-bottom: 5px;">🌟 Contributions:</h3>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/TeyKra/TeyKra/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/TeyKra/TeyKra/output/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/TeyKra/TeyKra/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/TeyKra/TeyKra/output/github-snake.svg" style="margin-top: 0;" />
 </picture>
