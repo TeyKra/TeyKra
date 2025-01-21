@@ -2,11 +2,6 @@
 
 # Hi there 👋 I'm Morgan
 
-<div class="image-container">
-    <img align="right" alt="codingg" width="450" 
-         src="https://user-images.githubusercontent.com/22107794/139606420-eaa56bc7-9377-4f5d-9356-aed07bed3143.gif">
-</div>
-
 <h3 align="left">🎓 About Me:</h3>
 <p>
     I am a Master's 2 degree student in <strong>Big Data & Machine Learning</strong> at <strong>EFREI Paris</strong>. 
