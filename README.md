@@ -5,24 +5,24 @@
     <img align="right" alt="codingg" width="450" 
          src="https://user-images.githubusercontent.com/22107794/139606420-eaa56bc7-9377-4f5d-9356-aed07bed3143.gif">
 </div>
-<h3 align="left">🎓 About Me:</h3>
+<h2 align="left">🎓 About Me:</h2>
 <p>
     I am a Master's 2 degree student in <strong>Big Data & Machine Learning</strong> at <strong>EFREI Paris</strong>. 
     Since 2024, I'm working as a Business Analyst apprentice at <strong>Dassault Systèmes</strong>.
 </p>
-<h3 align="left">📂 Projects:</h3>
+<h2 align="left">📂 Projects:</h2>
 On my GitHub, you'll find a selection of my academic and personal projects since I began my journey in computer science.
-<h3 align="left">🌐 Portfolio:</h3>
+<h2 align="left">🌐 Portfolio:</h2>
 <p>
     Check out my personal portfolio website: 
     <a href="https://myportfolio-morgan.netlify.app/" target="_blank">myportfolio-morgan.netlify.app</a>
 </p>
-<h3 align="left"> 🤝 Connect with me:</h3>
+<h2 align="left"> 🤝 Connect with me:</h2>
 <p align="left">
 <a href="https://www.linkedin.com/in/morgan-senechal-a0a8ba1b7/" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Morgan Senechal LinkedIn" height="30" width="40" /></a>
 <a href="https://www.kaggle.com/morgansenechal" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/kaggle.svg" alt="Morgan Senechal Kaggle" height="30" width="40" /></a>
 </p>
-<h3 align="left"> 🛠️ Main Languages and Tools:</h3>
+<h2 align="left"> 🛠️ Main Languages and Tools:</h2>
 <p align="left"> 
   <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a>
   <a href="https://www.scala-lang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/scala/scala-original.svg" alt="scala" width="40" height="40"/> </a>
@@ -54,7 +54,7 @@ On my GitHub, you'll find a selection of my academic and personal projects since
   <a href="https://huggingface.co/" target="_blank" rel="noreferrer"> <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="huggingface" width="40" height="40"/> </a>
 </p>
 <p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=teykra&show_icons=true&locale=en&layout=compact" alt="teykra" /></p>
-<h3 align="left"> 🏆 Trophy:</h3>
+<h2 align="left"> 🏆 Trophy:</h2>
 <p align="left"> 
   <a href="https://github.com/ryo-ma/github-profile-trophy">
     <img src="https://github-profile-trophy.vercel.app/?username=teykra" alt="teykra trophies" />
