@@ -60,3 +60,9 @@ On my GitHub, you'll find a selection of my academic and personal projects since
     <img src="https://github-profile-trophy.vercel.app/?username=teykra" alt="teykra trophies" />
   </a> 
 </p>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/TeyKra/TeyKra/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/TeyKra/TeyKra/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/TeyKra/TeyKra/output/github-snake.svg" />
+</picture>
