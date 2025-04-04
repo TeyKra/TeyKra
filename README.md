@@ -41,7 +41,7 @@ On my GitHub, you'll find a selection of my academic and personal projects since
   <a href="https://cassandra.apache.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/apache_cassandra/apache_cassandra-icon.svg" alt="cassandra" width="40" height="40"/> </a>
   <a href="https://redis.io" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" alt="redis" width="40" height="40"/> </a>
   <a href="https://neo4j.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/neo4j.svg" alt="neo4j" width="40" height="40"/> </a>
-  <a href="https://kafka.apache.org/" target="_blank" rel="noreferrer"><img src="https://e7.pngegg.com/pngimages/982/964/png-clipart-kafka-white-vertical-logo-tech-companies.png" alt="Kafka" width="60" height="40" /></a>
+  <a href="https://kafka.apache.org/" target="_blank" rel="noreferrer"><img src="https://svn.apache.org/repos/asf/kafka/site/logos/originals/png/WIDE%20-%20White%20on%20Transparent.png" alt="Kafka" width="60" height="40" /></a>
   <a href="https://dvc.org/" target="_blank" rel="noreferrer"><img src="https://dvc.org/img/dvc_icon-color--square_vector.svg" alt="dvc" width="40" height="40" /></a>
   <a href="https://github.com/features/actions" target="_blank" rel="noreferrer"> <img src="https://avatars.githubusercontent.com/u/44036562?s=200&v=4" alt="github actions" width="40" height="40"/> </a>
   <a href="https://airflow.apache.org/" target="_blank" rel="noreferrer"><img src="https://static-00.iconduck.com/assets.00/airflow-icon-2048x2048-ptyvisqh.png" alt="airflow" width="40" height="40"/> </a>
