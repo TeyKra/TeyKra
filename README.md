@@ -26,7 +26,7 @@ On my GitHub, you'll find a selection of my academic and personal projects since
 <p align="left"> 
   <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a>
   <a href="https://www.scala-lang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/scala/scala-original.svg" alt="scala" width="40" height="40"/> </a>
-  <a href="https://www.clipartmax.com/middle/m2H7i8K9H7N4A0G6_documentaci%C3%B3n-https-developer-mozilla-html-css-js-png/" target="_blank" rel="noreferrer"><img src="https://www.clipartmax.com/png/full/240-2404062_documentaci%C3%B3n-https-developer-mozilla-html-css-js-png.png" alt="HTML CSS JS" width="60" height="40" /></a>
+  <a href="https://normschurdell.com/products/html-css-js" target="_blank" rel="noreferrer"><img src="https://cdn.shopify.com/s/files/1/0661/9630/7113/files/htmlcssjs_1024x1024.png" alt="HTML CSS JS Logo" width="60" height="40" /></a>
   <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a>
   <a href="https://numpy.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original.svg" alt="numpy" width="40" height="40"/> </a>
   <a href="https://fr.wikipedia.org/wiki/Apache_Spark" target="_blank" rel="noreferrer"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Apache_Spark_logo.svg" alt="spark" width="80" height="40" /> </a>
