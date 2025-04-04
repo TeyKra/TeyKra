@@ -57,9 +57,9 @@ On my GitHub, you'll find a selection of my academic and personal projects since
   <a href="https://opencv.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/></a>
   <a href="https://stable-baselines3.readthedocs.io/" target="_blank" rel="noreferrer"><img src="https://stable-baselines3.readthedocs.io/en/master/_static/logo.png" alt="Stable-Baselines3" width="60" height="40" /></a>
   <a href="https://mlflow.org/" target="_blank" rel="noreferrer"><img src="https://www.mlflow.org/docs/1.23.1/_static/MLflow-logo-final-black.png" alt="MLflow" width="80" height="40"/></a>
-  <a href="https://streamlit.io/" target="_blank" rel="noreferrer"><img src="https://images.seeklogo.com/logo-png/44/2/streamlit-logo-png_seeklogo-441815.png" alt="Streamlit" width="40" height="40"/></a>
-  <a href="https://streamlit.io/" target="_blank" rel="noreferrer"><img src="https://images.seeklogo.com/logo-png/44/2/streamlit-logo-png_seeklogo-441815.png" alt="Streamlit" width="40" height="40"/></a>
-  <a href="https://matplotlib.org/" target="_blank" rel="noreferrer"><img src="https://images.seeklogo.com/logo-png/42/2/matplotlib-logo-png_seeklogo-428047.png" alt="Matplotlib" width="40" height="40"/></a>
+  <a href="https://streamlit.io/" target="_blank" rel="noreferrer"> <img src="https://images.seeklogo.com/logo-png/44/2/streamlit-logo-png_seeklogo-441815.png" alt="Streamlit" width="40" height="40"/></a>
+  <a href="https://streamlit.io/" target="_blank" rel="noreferrer"> <img src="https://images.seeklogo.com/logo-png/44/2/streamlit-logo-png_seeklogo-441815.png" alt="Streamlit" width="40" height="40"/></a>
+  <a href="https://matplotlib.org/" target="_blank" rel="noreferrer"> <img src="https://images.seeklogo.com/logo-png/42/2/matplotlib-logo-png_seeklogo-428047.png" alt="Matplotlib" width="40" height="40"/></a>
   <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/></a>
 </p>
 <p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=teykra&show_icons=true&locale=en&layout=compact" alt="teykra" /></p>
