@@ -58,7 +58,7 @@ On my GitHub, you'll find a selection of my academic and personal projects since
   <a href="https://stable-baselines3.readthedocs.io/" target="_blank" rel="noreferrer"><img src="https://stable-baselines3.readthedocs.io/en/master/_static/logo.png" alt="Stable-Baselines3" width="60" height="40" /></a>
   <a href="https://mlflow.org/" target="_blank" rel="noreferrer"><img src="https://www.mlflow.org/docs/1.23.1/_static/MLflow-logo-final-black.png" alt="MLflow" width="80" height="40" /></a>
   <a href="https://streamlit.io/" target="_blank" rel="noreferrer"><img src="https://streamlit.io/images/brand/streamlit-logo-primary-colormark-darktext.png" alt="Streamlit" width="80" height="40"/></a>
-  <a href="https://matplotlib.org/" target="_blank" rel="noreferrer"><img src="https://images.seeklogo.com/logo-png/42/2/matplotlib-logo-png_seeklogo-428047.png" alt="Matplotlib" width="40" height="40" /></a>
+  <a href="https://matplotlib.org/" target="_blank" rel="noreferrer"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Created_with_Matplotlib-logo.svg/2048px-Created_with_Matplotlib-logo.svg.png" alt="Matplotlib" width="40" height="40"/></a>
   <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/></a>
   <a href="https://numba.pydata.org/" target="_blank" rel="noreferrer"><img src="https://developer-blogs.nvidia.com/wp-content/uploads/2017/10/numba_blue_icon_rgb.png" alt="Numba" width="40" height="40" /></a>
 
