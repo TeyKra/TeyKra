@@ -8,7 +8,7 @@
 <h3 align="left">🎓 About Me:</h3>
 <p>
     I am a Master's 2 degree student in <strong>Big Data & Machine Learning</strong> at <strong>EFREI Paris</strong>. 
-    Since 2024, I'm working as a Business Analyst apprentice at <strong>Dassault Systèmes</strong>.
+    Since 2023, I'm working as a Business Analyst apprentice at <strong>Dassault Systèmes</strong>.
 </p>
 <h3 align="left">📂 Projects:</h3>
 On my GitHub, you'll find a selection of my academic and personal projects since I began my journey in computer science.
