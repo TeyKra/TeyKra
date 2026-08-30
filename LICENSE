@@ -1,0 +1,67 @@
+Copyright (c) 2026. All rights reserved.
+
+This repository holds the source and the generated artwork of the GitHub
+profile page published at https://github.com/TeyKra.
+
+No open-source licence is granted. Publishing a repository publicly does not
+place its contents in the public domain, and the terms below state what is and
+is not permitted.
+
+
+PERMITTED
+
+  - Reading this repository and studying how it is built.
+  - Forking it on GitHub, which the GitHub Terms of Service allow for any
+    public repository. A fork does not grant the rights withheld below.
+
+
+NOT PERMITTED WITHOUT PRIOR WRITTEN PERMISSION
+
+  - Redistributing, republishing or embedding the images in assets/, in whole
+    or in part. This includes hotlinking them from another page or profile.
+  - Any use of the photograph PP_update.png, or of any likeness derived from
+    it, including the half-block portrait embedded in assets/whoami-*.svg.
+  - Running the scripts in tools/ to generate a profile page for someone else.
+  - Presenting this page, or a page derived from it, as your own work.
+
+The person depicted in the portrait has not consented to its use by anyone
+else. That restriction is independent of copyright and is not waived by a fork.
+
+
+THIRD-PARTY MATERIAL
+
+The brand logos in tools/logos/ are not covered by the terms above. They are
+redistributed here under their own licences, and the marks themselves remain
+the trademarks of their respective owners, who are not affiliated with this
+project and do not endorse it.
+
+  Devicon — MIT Licence — https://github.com/devicons/devicon
+    airflow, aws, azure, css, gcp, html, js, kafka, opencv, prometheus,
+    python, spark, tensorflow, terraform
+
+      Copyright (c) 2015 Konpa
+
+      Permission is hereby granted, free of charge, to any person obtaining a
+      copy of this software and associated documentation files (the
+      "Software"), to deal in the Software without restriction, including
+      without limitation the rights to use, copy, modify, merge, publish,
+      distribute, sublicense, and/or sell copies of the Software, and to
+      permit persons to whom the Software is furnished to do so, subject to
+      the following conditions:
+
+      The above copyright notice and this permission notice shall be included
+      in all copies or substantial portions of the Software.
+
+      THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+      OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+      MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+      IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+      CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+      TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+      SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+  Simple Icons — CC0 1.0 Universal — https://github.com/simple-icons/simple-icons
+    docker, ultralytics
+
+  Drawn for this project, and covered by the terms at the top of this file
+    sql, sklearn

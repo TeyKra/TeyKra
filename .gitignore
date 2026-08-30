@@ -1,0 +1,10 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.ruff_cache/
+.venv/
+venv/
+
+# La photo source reste hors du dépôt : les SVG n'en embarquent que la grille
+# en demi-blocs. La reposer ici pour pouvoir régénérer la section whoami.
+PP_update.png
