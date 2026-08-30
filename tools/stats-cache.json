@@ -1,0 +1,29 @@
+{
+  "repositories": 45,
+  "followers": 11,
+  "since": 2021,
+  "commits": null,
+  "languages": [
+    [
+      "Python",
+      48.5
+    ],
+    [
+      "Jupyter Notebook",
+      27.3
+    ],
+    [
+      "HTML",
+      6.1
+    ],
+    [
+      "Scala",
+      6.1
+    ],
+    [
+      "C",
+      3.0
+    ]
+  ],
+  "measured": "2026-08-30T18:11:56+00:00"
+}

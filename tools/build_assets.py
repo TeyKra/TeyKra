@@ -3,29 +3,28 @@
 Deux sections sont des fenêtres de terminal rendues en SVG : la session
 `whoami` puis `cat about.md`, qui porte le portrait en demi-blocs, la fiche
 d'identité et la présentation, et la grille des technologies. S'y ajoutent
-l'en-tête des statistiques, le séparateur et la barre de statut. Chaque image
-est produite en variante sombre et claire.
+la fenêtre des statistiques et le séparateur. Chaque image est produite en
+variante sombre et claire.
 
 Lancer `python tools/build_assets.py` après toute modification du contenu
-ci-dessous. Les statistiques elles-mêmes ne sont pas générées ici : le README
-pointe directement les images de github-readme-stats, recalculées à chaque
-affichage.
+ci-dessous. Les statistiques sont relevées sur l'API GitHub par
+`github_stats.py` puis dessinées ici : le README ne dépend d'aucun service
+tiers, dont l'indisponibilité laissait un trou à la place des cartes.
 """
 
 from __future__ import annotations
 
 from pathlib import Path
 
+from github_stats import Stats, load
 from terminal import (
     CANVAS_WIDTH,
     CONTENT_LEFT,
     CONTENT_RIGHT,
-    MONO_STACK,
     THEMES,
     Theme,
     Timeline,
     advance,
-    edge_gradient,
     escape,
     halfblock_portrait,
     pixel_image,
@@ -245,78 +244,129 @@ width="{CANVAS_WIDTH}" height="8" role="img" aria-label=""><defs>
 <rect class="run" x="0" y="2.5" width="260" height="2.8" rx="1.4" fill="url(#beam)"/></svg>"""
 
 
-def build_status(theme: Theme) -> str:
-    """Compose la barre de statut tmux du pied de page.
+# Mise en page de la fenêtre des statistiques.
+METRIC_TOP = 168
+METRIC_LABEL = 192
+BAR_TOP = 288
+BAR_PITCH = 30
+BAR_LABEL_WIDTH = 178
+BAR_TRACK = 470
+
+
+def _metric_cells(stats: Stats) -> tuple[tuple[str, str], ...]:
+    """Compose les compteurs affichés en tête de fenêtre.
 
     Args:
-        theme: Palette à appliquer.
+        stats: Chiffres relevés sur l'API.
 
     Returns:
-        Le document SVG complet.
+        Des couples (valeur, étiquette). Le total de commits n'apparaît que
+        si un jeton était disponible au moment de la mesure.
     """
-    tabs = (("0:whoami", True), ("1:about", False), ("2:stack", False), ("3:stats", False))
-    nodes, x = [], 128
-    for caption, active in tabs:
-        width = round(text_width(caption, 12) + 22)
-        fill = theme.green if active else theme.chrome
-        ink = theme.chrome if active else theme.dim
-        nodes.append(
-            f'<rect x="{x}" y="7" width="{width}" height="26" rx="4" fill="{fill}"/>'
-            f'<text class="m" x="{x + 11}" y="24" font-size="12" fill="{ink}">{escape(caption)}</text>'
-        )
-        x += width + 7
-
-    mono = "ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace"
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {CANVAS_WIDTH} 40" \
-width="{CANVAS_WIDTH}" height="40" role="img" fill="{theme.base}" \
-aria-label="Barre de statut : github.com/TeyKra"><defs>
-<style>.m {{ font-family: {mono} }}
-text {{ white-space: pre }}
-.rec {{ animation: rec 1.8s ease-in-out infinite }}
-@keyframes rec {{ 0%,100% {{ opacity: .25 }} 50% {{ opacity: 1 }} }}
-@media (prefers-reduced-motion: reduce) {{ * {{ animation: none !important }} }}</style>
-</defs>
-<rect width="{CANVAS_WIDTH}" height="40" rx="7" fill="{theme.chrome}"/>
-<rect x="0" y="0" width="110" height="40" rx="7" fill="{theme.green}"/>
-<rect x="96" y="0" width="14" height="40" fill="{theme.green}"/>
-<text class="m" x="20" y="25" font-size="12.5" font-weight="600" fill="{theme.chrome}">[morgan]</text>
-{"".join(nodes)}
-<circle class="rec" cx="654" cy="20" r="4.5" fill="#f85149"/>
-<text class="m" x="667" y="25" font-size="12" fill="{theme.dim}">REC</text>
-<text class="m" x="712" y="25" font-size="12" fill="{theme.dim}">github.com/TeyKra</text>
-<text class="m" x="874" y="25" font-size="12" fill="{theme.dim}">utf-8</text></svg>"""
+    cells = [(str(stats.repositories), "repositories"), (str(stats.followers), "followers")]
+    if stats.commits is not None:
+        cells.append((str(stats.commits), "commits this year"))
+    cells.append((str(stats.since), "member since"))
+    return tuple(cells)
 
 
-def build_statshead(theme: Theme) -> str:
-    """Compose le titre de la section statistiques, sans fenêtre.
+def _bar_reveal(name: str, at: float, over: float, duration: float) -> str:
+    """Produit le keyframe qui fait croître une barre de langage.
 
-    Les cartes qui suivent dans le README sont servies par github-readme-stats
-    et ne peuvent pas être dessinées dans un terminal : cet en-tête les rattache
-    au reste par la barre d'accent, l'invite et la palette.
+    Args:
+        name: Nom de la classe et du keyframe.
+        at: Instant de départ, en secondes.
+        over: Durée de la croissance, en secondes.
+        duration: Durée du cycle complet, en secondes.
+
+    Returns:
+        Les règles CSS correspondantes.
+    """
+    start = f"{at / duration * 100:.3f}%"
+    end = f"{(at + over) / duration * 100:.3f}%"
+    return (
+        f"@keyframes {name}{{0%{{clip-path:inset(0 100% 0 0)}}"
+        f"{start}{{clip-path:inset(0 100% 0 0)}}"
+        f"{end}{{clip-path:inset(0 0 0 0)}}100%{{clip-path:inset(0 0 0 0)}}}}"
+        f".{name}{{animation:{name} {duration}s cubic-bezier(.2,.7,.3,1) infinite}}"
+    )
+
+
+def build_stats(theme: Theme, stats: Stats) -> str:
+    """Compose la fenêtre des statistiques du compte.
 
     Args:
         theme: Palette à appliquer.
+        stats: Chiffres relevés sur l'API GitHub.
 
     Returns:
         Le document SVG complet.
     """
     command = "gh stats"
-    clock = Timeline(9.0)
-    style = clock.typing("cmd", 0.2, 0.6, text_width(command, 19))
-    return (
-        f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {CANVAS_WIDTH} 86" '
-        f'width="{CANVAS_WIDTH}" height="86" role="img" fill="{theme.base}" '
-        f'aria-label="gh stats">'
-        f"<defs>{edge_gradient(theme)}<style>"
-        f".m {{ font-family: {MONO_STACK} }} text {{ white-space: pre }} "
-        f".faint {{ fill: {theme.faint} }} "
-        f"@keyframes blink {{ 0%,49% {{ opacity: 1 }} 50%,100% {{ opacity: 0 }} }} "
-        f"@media (prefers-reduced-motion: reduce) {{ * {{ animation: none !important }} }} "
-        f"{style}</style></defs>"
-        + prompt(46, command, theme, anim="cmd", caption="what I’ve shipped")
-        + f'<rect x="{CONTENT_LEFT}" y="68" width="{CONTENT_RIGHT - CONTENT_LEFT}" '
-        f'height="1" fill="{theme.line}"/></svg>'
+    clock = Timeline(11.0)
+    cells = _metric_cells(stats)
+    bars_bottom = BAR_TOP + max(len(stats.languages) - 1, 0) * BAR_PITCH
+    tail_y = bars_bottom + 52
+
+    style = [
+        clock.typing("cmd", 0.2, 0.6, text_width(command, 19)),
+        clock.cursor("tail", 8.4),
+        clock.fade_in("langs", 2.4),
+    ]
+    style += [clock.fade_in(f"kpi{i}", 1.0 + 0.22 * i) for i in range(len(cells))]
+    style += [_bar_reveal(f"bar{i}", 2.9 + 0.28 * i, 0.9, 11.0) for i in range(len(stats.languages))]
+
+    parts = [
+        window_open(
+            tail_y + 35,
+            f"{HANDLE}: ~ — gh stats — 132×22",
+            theme,
+            label=(
+                f"Statistiques GitHub de Morgan : {stats.repositories} dépôts publics, "
+                f"{stats.followers} abonnés, compte ouvert en {stats.since}. "
+                f"Langages principaux : " + ", ".join(f"{name} {share} %" for name, share in stats.languages) + "."
+            ),
+            style="\n".join(style),
+        ),
+        prompt(93, command, theme, anim="cmd", caption="what I’ve shipped"),
+    ]
+
+    span = (CONTENT_RIGHT - CONTENT_LEFT) / len(cells)
+    for index, (value, label) in enumerate(cells):
+        x = CONTENT_LEFT + round(index * span)
+        parts.append(
+            f'<g class="kpi{index}">'
+            f'<text class="m g" x="{x}" y="{METRIC_TOP}" font-size="30" font-weight="700">{escape(value)}</text>'
+            f'<text class="m c" x="{x}" y="{METRIC_LABEL}" font-size="12.5">{escape(label)}</text></g>'
+        )
+
+    parts.append(
+        f'<rect x="{CONTENT_LEFT}" y="{METRIC_LABEL + 28}" width="{CONTENT_RIGHT - CONTENT_LEFT}" '
+        f'height="1" fill="{theme.line}"/>'
+        f'<g class="langs"><text class="m c" x="{CONTENT_LEFT}" y="{BAR_TOP - 34}" font-size="14.5">'
+        f'languages/<tspan class="faint" font-size="12">   share of public repositories</tspan>'
+        f"</text></g>"
     )
+
+    track_x = CONTENT_LEFT + BAR_LABEL_WIDTH
+    widest = max((share for _, share in stats.languages), default=1.0) or 1.0
+    for index, (name, share) in enumerate(stats.languages):
+        y = BAR_TOP + index * BAR_PITCH
+        filled = round(BAR_TRACK * share / widest)
+        tint = theme.green if index == 0 else theme.cyan
+        parts.append(
+            f'<text class="m b" x="{CONTENT_LEFT}" y="{y}" font-size="13.5">{escape(name)}</text>'
+            f'<rect x="{track_x}" y="{y - 11}" width="{BAR_TRACK}" height="14" rx="3" '
+            f'fill="{theme.line}" fill-opacity=".55"/>'
+            f'<g class="bar{index}"><rect x="{track_x}" y="{y - 11}" width="{filled}" height="14" '
+            f'rx="3" fill="{tint}"/></g>'
+            f'<text class="m dim" x="{track_x + BAR_TRACK + 16}" y="{y}" font-size="13">'
+            f"{share:.1f} %</text>"
+        )
+
+    parts.append(_tail_prompt(tail_y, theme, "tail"))
+    parts.append(window_close())
+    return "".join(parts)
 
 
 def _field_value(value: str, x: int, y: int, theme: Theme, is_link: bool) -> str:
@@ -383,24 +433,22 @@ def _tail_prompt(y: int, theme: Theme, anim: str) -> str:
 SUBJECTS = {
     "whoami": "morgan@github — identity card and profile",
     "stack": "morgan@github — technology stack",
-    "statshead": "morgan@github — GitHub statistics",
+    "stats": "morgan@github — GitHub statistics",
     "rule": "morgan@github — section separator",
-    "status": "morgan@github — status bar",
-}
-
-BUILDERS = {
-    "whoami": build_whoami,
-    "stack": build_stack,
-    "statshead": build_statshead,
-    "rule": build_rule,
-    "status": build_status,
 }
 
 
 def main() -> None:
     """Écrit toutes les images du README pour les deux thèmes."""
     ASSETS.mkdir(exist_ok=True)
-    for name, builder in BUILDERS.items():
+    stats = load()
+    builders = {
+        "whoami": build_whoami,
+        "stack": build_stack,
+        "stats": lambda theme: build_stats(theme, stats),
+        "rule": build_rule,
+    }
+    for name, builder in builders.items():
         for theme in THEMES:
             target = ASSETS / f"{name}-{theme.name}.svg"
             target.write_text(stamp(builder(theme), SUBJECTS[name]), encoding="utf-8")

@@ -1,0 +1,51 @@
+name: Refresh profile stats
+
+on:
+  schedule:
+    - cron: "17 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install build dependencies
+        run: pip install -r tools/requirements.txt
+
+      # La photo source reste hors du dépôt : sans elle, `build_assets.py`
+      # échoue sur la section whoami. Seule la fenêtre des statistiques a
+      # besoin d'être régénérée ici.
+      - name: Rebuild the stats window
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python - <<'PY'
+          import sys
+          sys.path.insert(0, "tools")
+          from build_assets import ASSETS, SUBJECTS, build_stats
+          from github_stats import load
+          from terminal import THEMES, stamp
+
+          stats = load()
+          for theme in THEMES:
+              target = ASSETS / f"stats-{theme.name}.svg"
+              target.write_text(stamp(build_stats(theme, stats), SUBJECTS["stats"]), encoding="utf-8")
+              print(f"{target} {target.stat().st_size / 1024:.1f} Ko")
+          PY
+
+      - name: Commit when the numbers moved
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/stats-dark.svg assets/stats-light.svg tools/stats-cache.json
+          git diff --staged --quiet || git commit -m "chore: refresh profile stats"
+          git push
