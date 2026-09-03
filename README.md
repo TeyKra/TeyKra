@@ -4,7 +4,7 @@
 
 <img alt="" src="assets/rule-dark.svg">
 
-<img alt="Tech stack — languages: Python, SQL, HTML, CSS, JS. Cloud: GCP, Azure, AWS. Data: Kafka, Spark, Airflow. Ops: Docker, Terraform, Prometheus. ML: TensorFlow, Scikit-learn, OpenCV, Ultralytics." src="assets/stack-dark.svg">
+<img alt="Tech stack — languages: Python, SQL, HTML, CSS, JS. Cloud: GCP, Azure, AWS. Data: Kafka, Spark, Airflow. Ops: Docker, Terraform, Prometheus, FastAPI. ML: TensorFlow, Scikit-learn, OpenCV, Ultralytics." src="assets/stack-dark.svg">
 
 <img alt="" src="assets/rule-dark.svg">
 

@@ -60,7 +60,10 @@ STACK: tuple[tuple[str, tuple[tuple[str, str], ...]], ...] = (
     ),
     ("cloud/", (("gcp", "GCP"), ("azure", "Azure"), ("aws", "AWS"))),
     ("data/", (("kafka", "Kafka"), ("spark", "Spark"), ("airflow", "Airflow"))),
-    ("ops/", (("docker", "Docker"), ("terraform", "Terraform"), ("prometheus", "Prometheus"))),
+    (
+        "ops/",
+        (("docker", "Docker"), ("terraform", "Terraform"), ("prometheus", "Prometheus"), ("fastapi", "FastAPI")),
+    ),
     (
         "ml/",
         (
